@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.github.justinwon777.humancompanions.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+  ],
+  "mixins": [
+    "ImageButtonAccessor",
+    "ServerPlayerAccessor"
+  ],
+  "minVersion": "0.8"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "humancompanions",
+  "version": "${version}",
+  "name": "Human Companions",
+  "description": "This mod adds human companions that can help you on your journey.",
+  "contributors": [
+    "Skins: schwaechlich, LukyLucaz, ShudderShockBailiff, Tankrid, Chronomize, traxll, Soloveigo, RiserSkin, jojohebbeker, Mcc, CrumbleCupcake, neji101, Fieee, Gunshykiki, ShannonGood, sunborn, and deerrie",
+    "Structures: Dr_Bond, Lemon-Fox, BrokenGamer, barrel_maker, Life of the Party, McKorova, Trickn_Nuggets, and Pufficles"
+  ],
+  "authors": [
+    "BluSpring",
+    "justinwon777"
+  ],
+  "contact": {},
+  "license": "GNU",
+  "icon": "doesnt_exist_lmao.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.justinwon777.humancompanions.HumanCompanions"
+    ]
+  },
+  "mixins": [
+    "humancompanions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "forgeconfigapiport": ">=4.2.11",
+    "architectury": ">=6.5.85"
+  },
+  "accessWidener": "humancompanions.accesswidener"
+}
